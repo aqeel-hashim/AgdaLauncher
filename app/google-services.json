@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "777085006752",
+    "firebase_url": "https://agda-12a85.firebaseio.com",
+    "project_id": "agda-12a85",
+    "storage_bucket": "agda-12a85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777085006752:android:de68d8841430a8a9",
+        "android_client_info": {
+          "package_name": "com.suraiya.agdalauncher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777085006752-oteneglbm31ef3h42hq5e3up31i9k6q5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.suraiya.agdalauncher",
+            "certificate_hash": "5f63c097b9d4cb1a36487f006ef0739a970c0384"
+          }
+        },
+        {
+          "client_id": "777085006752-mq8invgaes1525tivtvtoki3atf8m6vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDme80x21sxkWGTAWKW0sZwVdWTletpDqI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777085006752-mq8invgaes1525tivtvtoki3atf8m6vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

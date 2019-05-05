@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="310dp"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+    android:background="@color/icons">
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:background="@color/primary_light"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:text="Enter Pin"
+        android:textColor="@color/primary_text"
+        android:paddingTop="14dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="290dp"
+    android:background="@color/accent"
+    android:layout_height="56dp"
+    android:layout_marginTop="44dp"
+    android:text="Done"
+    android:layout_below="@+id/editText1"
+    android:layout_alignStart="@+id/textView3"
+    android:layout_alignParentEnd="true"
+    android:layout_marginBottom="4dp"/>
+
+<EditText
+    android:id="@+id/editText1"
+    android:layout_width="250dp"
+    android:layout_height="56dp"
+    android:ems="10"
+    android:hint="Pin"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
+
+    <requestFocus />
+</EditText>
+
+</RelativeLayout>
